@@ -6,7 +6,6 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <!-- CircleImageView -->
     <de.hdodenhof.circleimageview.CircleImageView
         android:id="@+id/circleImageView"
         android:layout_width="197dp"
@@ -21,7 +20,6 @@
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingClass" />
 
-    <!-- Thông tin sinh viên -->
     <TextView
         android:id="@+id/tvStudentInfo"
         android:layout_width="wrap_content"
