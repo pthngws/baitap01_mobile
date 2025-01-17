@@ -1,0 +1,15 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Baitap01" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+    <!-- Theme tùy chỉnh để ẩn Status Bar -->
+    <style name="NoStatusBarTheme" parent="Theme.Material3.DayNight">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <!-- Ẩn Status Bar -->
+        <item name="android:windowFullscreen">true</item>
+    </style>
+    <style name="Theme.Baitap01" parent="Base.Theme.Baitap01" />
+</resources>
